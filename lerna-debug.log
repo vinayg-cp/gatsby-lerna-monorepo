@@ -1,0 +1,9 @@
+0 silly argv { _: [ 'clean' ],
+0 silly argv   lernaVersion: '3.16.4',
+0 silly argv   '$0':
+0 silly argv    'C:\\Users\\Dev-15\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\lerna\\cli.js' }
+1 notice cli v3.16.4
+2 verbose rootPath C:\Codeparva\Gatsby Tenant Websites\POCs\Gatsby Lerna POCs\lerna-monorepo-starter
+3 error JSONError: Unexpected end of JSON input while parsing near '' in packages\shop\package.json
+3 error     at module.exports (C:\Users\Dev-15\AppData\Local\Yarn\Data\global\node_modules\parse-json\index.js:26:19)
+3 error     at parse (C:\Users\Dev-15\AppData\Local\Yarn\Data\global\node_modules\load-json-file\index.js:15:9)
