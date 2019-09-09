@@ -11,7 +11,8 @@ export default ({ pathContext: { data }}) => {
       <h1>{data.title}</h1>
       <p>{data.content}</p>
       <Button>Purchase</Button>
-      <Link to="/">Back to Shop</Link>
+      {/* <Link to="/">Back to Shop</Link> */}
+      <a href={process.env.SHOP_URL}>Back to Shop</a>
     </div>
   )
 }
